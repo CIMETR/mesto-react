@@ -15,5 +15,4 @@
 * Реализовать весь функционал проекта
 ---
 
-<br />
-[Проект](https://CIMETR.github.io/mesto-react/)
+[Проект](https://cimetr.github.io/mesto-react/index.html)
