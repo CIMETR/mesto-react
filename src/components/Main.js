@@ -51,10 +51,10 @@ function Main({onEditAvatar, onEditProfile, onAddPlace, onCardClick}) {
       <section className="cards-grid">
         <ul className="card-grid">
         {
-            cards.map(({id, ...props}) => <Card key={id} {...props}
+            cards.map(({id, ...props}) => (<Card key={id} {...props}
             card={ {id, ...props} }
             onCardClick={onCardClick}
-            />)
+            />))
           }
         </ul>
       </section>
