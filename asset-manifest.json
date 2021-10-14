@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/mesto-react/static/css/main.e8907df7.chunk.css",
-    "main.js": "/mesto-react/static/js/main.8dd11c38.chunk.js",
-    "main.js.map": "/mesto-react/static/js/main.8dd11c38.chunk.js.map",
+    "main.css": "/mesto-react/static/css/main.b957b745.chunk.css",
+    "main.js": "/mesto-react/static/js/main.c1febecc.chunk.js",
+    "main.js.map": "/mesto-react/static/js/main.c1febecc.chunk.js.map",
     "runtime-main.js": "/mesto-react/static/js/runtime-main.18ccd7a6.js",
     "runtime-main.js.map": "/mesto-react/static/js/runtime-main.18ccd7a6.js.map",
-    "static/js/2.4fc1b4bf.chunk.js": "/mesto-react/static/js/2.4fc1b4bf.chunk.js",
-    "static/js/2.4fc1b4bf.chunk.js.map": "/mesto-react/static/js/2.4fc1b4bf.chunk.js.map",
+    "static/js/2.896f000d.chunk.js": "/mesto-react/static/js/2.896f000d.chunk.js",
+    "static/js/2.896f000d.chunk.js.map": "/mesto-react/static/js/2.896f000d.chunk.js.map",
     "static/js/3.8f549c3c.chunk.js": "/mesto-react/static/js/3.8f549c3c.chunk.js",
     "static/js/3.8f549c3c.chunk.js.map": "/mesto-react/static/js/3.8f549c3c.chunk.js.map",
     "index.html": "/mesto-react/index.html",
-    "static/css/main.e8907df7.chunk.css.map": "/mesto-react/static/css/main.e8907df7.chunk.css.map",
-    "static/js/2.4fc1b4bf.chunk.js.LICENSE.txt": "/mesto-react/static/js/2.4fc1b4bf.chunk.js.LICENSE.txt",
+    "static/css/main.b957b745.chunk.css.map": "/mesto-react/static/css/main.b957b745.chunk.css.map",
+    "static/js/2.896f000d.chunk.js.LICENSE.txt": "/mesto-react/static/js/2.896f000d.chunk.js.LICENSE.txt",
     "static/media/index.css": "/mesto-react/static/media/remove.cbc09a89.svg",
     "static/media/Vector.03b78ada.svg": "/mesto-react/static/media/Vector.03b78ada.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.18ccd7a6.js",
-    "static/js/2.4fc1b4bf.chunk.js",
-    "static/css/main.e8907df7.chunk.css",
-    "static/js/main.8dd11c38.chunk.js"
+    "static/js/2.896f000d.chunk.js",
+    "static/css/main.b957b745.chunk.css",
+    "static/js/main.c1febecc.chunk.js"
   ]
 }
