@@ -32,8 +32,8 @@ class Api {
       method: 'PATCH',
       headers: this._headers,
       body: JSON.stringify({
-        name: userData.userName,
-        about: userData.userAbout
+        name: userData.name,
+        about: userData.about
       })
     })
     .then(this._checkResponse)
@@ -44,24 +44,16 @@ class Api {
       method: 'POST',
       headers: this._headers,
       body: JSON.stringify({
-        name: data.nameCard,
+        name: data.name,
         link: data.link
       })
     })
     .then(this._checkResponse)
   }
 
-  like(id) {
+  changeLikeCardStatus(id, isLiked) {
     return fetch(this._url + `/cards/likes/${id}`, {
-      method: 'PUT',
-      headers: this._headers
-    })
-    .then(this._checkResponse)
-  }
-
-  dislike(id) {
-    return fetch(this._url + `/cards/likes/${id}`, {
-      method: 'DELETE',
+      method: `${isLiked ? 'PUT' : 'DELETE'}`,
       headers: this._headers
     })
     .then(this._checkResponse)
