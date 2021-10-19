@@ -85,22 +85,12 @@ function App() {
       .catch((err) => console.log(err))
   }
 
-  React.useEffect(() => {
-    api.getInitialCards()
-      .then((data) => {
-        setCards(data)
-      })
-      .catch((err) => console.log(err))
-  }, [])
 
 
   React.useEffect(() => {
-    api.getUserInfo()
-      .then((data) => {
-        setCurrentUser(data)
-      })
-      .catch((err) => console.log(err))
-  }, [])
+    Promise.all([api.getUserInfo(), api.getInitialCards()])
+  .then(([ data, cards ]) =>  ([setCards(cards), setCurrentUser(data)]))
+  .catch((err) => console.log(err))}, [])
 
   return (
     <CurrentUserContext.Provider value={currentUser}>
